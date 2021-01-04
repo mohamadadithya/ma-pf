@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Poppins:wght@300;400;500;800&display=swap"
+        rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>MA-PF | John Doe</title>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex justify-content-center align-items-center bg-white">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- End of Preloader -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder font-2 text-white" href="#">John Doe</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fas fa-bars text-white" id="navbar-toggler-icon" style="color: black;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#bio">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#p-s">Passions & Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#photos">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#blog">Blog</a>
+                    </li>
+                </ul>
+                <div class="social-media text-center text-white">
+                    <i class="fab ms-3 fa-instagram"></i>
+                    <i class="fab ms-3 fa-twitter"></i>
+                    <i class="fab ms-3 fa-github"></i>
+                    <i class="fab ms-3 fa-spotify"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Jumbotron -->
+    <section id="jumbotron" class="d-flex justify-content-center align-items-center mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-white text-center fw-bolder">Welcome to My <span id="welcome-text"></span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Jumbotron -->
+    <!-- About -->
+    <section id="bio" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="john-doe" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-6" id="about" data-aos="fade-left">
+                    <h2 class="fw-bolder">Hi, I'm John Doe</h2>
+                    <h5 class="fw-bolder text-black-50 mb-4">Full-Stack Web Developer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis, debitis dolores
+                        aliquam, quod ea laborum nisi suscipit quia a, repellat deleniti quibusdam maxime? Iste
+                        voluptatibus libero quisquam ab soluta?Alias quaerat quos nostrum error dolorum autem sint?
+                        Quibusdam minima nemo, officiis vel consequuntur inventore quasi temporibus blanditiis pariatur
+                        libero hic odio neque nam! Quibusdam alias reprehenderit quasi esse saepe?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About -->
+    <!-- Passions & Skills -->
+    <section id="p-s" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4" data-aos="zoom-in">
+                    <h2 class="fw-bolder mb-4">Passions</h2>
+                    <div id="passions" class="d-flex flex-column">
+                        <span><i class="fas fa-book-open me-3 mb-4"></i>Learning</span>
+                        <span><i class="fas fa-laptop me-3 mb-4"></i>Technology</span>
+                        <span><i class="far fa-futbol me-3 mb-4"></i>Playing Sports</span>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in">
+                    <h2 class="fw-bolder mb-4">Skills</h2>
+                    <div id="skills">
+                        <div class="d-flex mb-4">
+                            <span class="me-3 border-bottom">HTML</span>
+                            <span class="me-3 border-bottom">CSS</span>
+                            <span class="me-3 border-bottom">JS</span>
+                            <span class="me-3 border-bottom">PHP</span>
+                            <span class="me-3 border-bottom">Git</span>
+                        </div>
+                        <div class="d-flex">
+                            <span class="me-3 border-bottom">SCSS</span>
+                            <span class="me-3 border-bottom">jQuery</span>
+                            <span class="me-3 border-bottom">CodeIgniter</span>
+                            <span class="me-3 border-bottom">Laravel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Passions & Skills -->
+    <!-- Photos -->
+    <section id="photos" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3" data-aos="fade-down">
+                    <a href="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        data-fslightbox="gallery">
+                        <img src="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="photo-1" class="img-fluid rounded-2">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3" data-aos="fade-down">
+                    <a href="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        data-fslightbox="gallery">
+                        <img src="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="photo-1" class="img-fluid rounded-2">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3" data-aos="fade-down">
+                    <a href="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        data-fslightbox="gallery">
+                        <img src="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="photo-1" class="img-fluid rounded-2">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3" data-aos="fade-down">
+                    <a href="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        data-fslightbox="gallery">
+                        <img src="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="photo-1" class="img-fluid rounded-2">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3" data-aos="fade-down">
+                    <a href="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        data-fslightbox="gallery">
+                        <img src="https://images.unsplash.com/photo-1609175215545-3b41b17d9e1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="photo-1" class="img-fluid rounded-2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Photos -->
+    <!-- Blog -->
+    <section id="blog" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3" data-aos="fade-up">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="fw-bolder">100DaysOfCode</h4>
+                            <small class="text-black-50 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Autem
+                                animi commodi, recusandae
+                                pariatur eius praesentium aperiam. Alias fuga fugiat, inventore, libero, pariatur quo
+                                enim distinctio eum facilis laudantium cupiditate.</small>
+                            <small><a href="" class="text-decoration-none text-black">Read more</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3" data-aos="fade-up">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="fw-bolder">Best VS Code Extensions</h4>
+                            <small class="text-black-50 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Autem
+                                animi commodi, recusandae
+                                pariatur eius praesentium aperiam. Alias fuga fugiat, inventore, libero, pariatur quo
+                                enim distinctio eum facilis laudantium cupiditate.</small>
+                            <small><a href="" class="text-decoration-none text-black">Read more</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3" data-aos="fade-up">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="fw-bolder">Best IDEs for Developers</h4>
+                            <small class="text-black-50 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Autem
+                                animi commodi, recusandae
+                                pariatur eius praesentium aperiam. Alias fuga fugiat, inventore, libero, pariatur quo
+                                enim distinctio eum facilis laudantium cupiditate.</small>
+                            <small><a href="" class="text-decoration-none text-black">Read more</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Blog -->
+    <!-- Footer -->
+    <footer class="border-top py-5 mb-4">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-in">
+                    <h5 class="fw-bolder">About</h5>
+                    <div class="d-flex flex-column text-black-50">
+                        <small>Handcrafted with Bootstrap 5, SCSS, and Laravel 8</small>
+                        <small class="mt-3">&copy; 2021 by Mohamad Adithya</small>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-in">
+                    <h5 class="fw-bolder">Explore</h5>
+                    <div class="d-flex flex-column">
+                        <small><a href="#" class="text-decoration-none text-black-50">Home</a></small>
+                        <small><a href="#blog" class="text-decoration-none text-black-50">Blog</a></small>
+                        <small><a href="#about" class="text-decoration-none text-black-50">About</a></small>
+                        <small><a href="#photos" class="text-decoration-none text-black-50">Photos</a></small>
+                        <small><a href="#p-s" class="text-decoration-none text-black-50">Passions & Skills</a></small>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-in">
+                    <h5 class="fw-bolder">Mail Me</h5>
+                    <div class="d-flex flex-column">
+                        <small class="text-black-50"><i class="fas fa-envelope me-3"></i>johndoe@example.com</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap JS and Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+    <!-- Typed JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- FS Lightbox -->
+    <script src="assets/js/fslightbox.js"></script>
+    <!-- My JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
