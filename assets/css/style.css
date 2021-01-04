@@ -175,4 +175,8 @@ section#jumbotron {
   opacity: 0;
   pointer-events: none;
 }
+
+#bio {
+  overflow-x: hidden;
+}
 /*# sourceMappingURL=style.css.map */
