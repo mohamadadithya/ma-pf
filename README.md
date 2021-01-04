@@ -1,5 +1,5 @@
 # MA-PF
-MA-PF is a personal web template made with Bootstrap 5.
+MA-PF is a personal/portfolio web template made with Bootstrap 5.
 
 Demo: https://ma-pf.netlify.app
 
